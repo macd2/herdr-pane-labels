@@ -6,9 +6,7 @@ A small [herdr](https://herdr.dev) plugin that puts three things in each pane's 
 - the agent's session title, when an agent (Claude Code, Codex, ...) runs in the pane
 - whether the pane is local `•` or inside ssh `⇄`
 
-```
-┌ • Claude Code · ~/src/webapp ──────┐┌ ⇄ bob@server: /srv/app ────────────┐
-```
+![Two agents, a shell and an ssh session, each labelled in its pane border](assets/screenshot.png)
 
 Tab names are left alone.
 
