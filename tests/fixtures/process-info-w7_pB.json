@@ -1,0 +1,1 @@
+{"id":"cli:pane:process_info","result":{"process_info":{"foreground_process_group_id":392783,"foreground_processes":[{"argv":["ssh","-o","ConnectTimeout=40","mono"],"cmdline":"ssh -o ConnectTimeout=40 mono","cwd":"/home/alice/projects/src/webapp","name":"ssh","pid":392783}],"pane_id":"w7:pB","shell_pid":392760},"type":"pane_process_info"}}

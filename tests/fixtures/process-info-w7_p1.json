@@ -1,0 +1,1 @@
+{"id":"cli:pane:process_info","result":{"process_info":{"foreground_process_group_id":3738324,"foreground_processes":[{"argv":["/bin/bash"],"cmdline":"/bin/bash","cwd":"/home/alice","name":"bash","pid":3738324}],"pane_id":"w7:p1","shell_pid":3738324},"type":"pane_process_info"}}
