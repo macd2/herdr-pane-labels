@@ -1,0 +1,11 @@
+id = "macd2.pane-labels"
+name = "Pane labels"
+version = "0.1.0"
+min_herdr_version = "0.9.0"
+description = "Label each pane border with its current path, the agent session title, and whether it is inside ssh"
+platforms = ["linux", "macos"]
+
+# Event hooks can't see pane.updated (title/cwd changes), so startup launches
+# a background watcher that subscribes over the socket and relabels.
+[[startup]]
+command = ["python3", "watch.py"]

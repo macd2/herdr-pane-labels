@@ -1,0 +1,1 @@
+{"id":"cli:pane:process_info","result":{"process_info":{"foreground_process_group_id":392780,"foreground_processes":[{"argv":["claude"],"cmdline":"claude","cwd":"/home/alice/projects/src/webapp","name":"claude","pid":392780}],"pane_id":"w7:pA","shell_pid":392750},"type":"pane_process_info"}}
